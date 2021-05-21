@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "DEBUG=app:* nodemon --exec ts-node -r tsconfig-paths/register src/index.ts",
     "start": "NODE_ENV=production NODE_PATH=dist/ node ./dist/index.js",
-    "build": "rm -rf dist && tsc -p ./tsconfig.production.json"
+    "build": "rm -rf dist && tsc -p ./tsconfig.json"
   },
   "engines": {
     "node": "15.x"
